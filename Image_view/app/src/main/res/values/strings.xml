@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Image_view</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">about</string>
+    <string name="idiot_on_a_board">idiot</string>
+    <string name="title_activity_aftter_activity">aftterACtivity</string>
+</resources>

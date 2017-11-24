@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Food Entrepreneur</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profile2">Profile2</string>
+</resources>

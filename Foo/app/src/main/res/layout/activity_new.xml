@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.taseef_pc.foo.New">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="LOG IN/SIGN UP"
+            android:layout_width="match_parent"
+            android:id="@+id/textView13"
+            android:layout_height="22dp"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:text="Log in using your name and password if you have already signed up.If not,then please sign up and proceed.Dont forget to get your own id as it would be needed later."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView15"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:text="DONATE/INQUIRE FOOD"
+            android:layout_width="match_parent"
+            android:id="@+id/textView14"
+            android:layout_height="22dp"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:text="Fill up the forms as mentioned.The result of your inquiry would appear as a list.You can alos delete your previous inquiry using DELETE button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView16"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:text="HISTORY"
+            android:layout_width="match_parent"
+            android:id="@+id/textView17"
+            android:layout_height="22dp"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:text="Fill up the forms as mentioned.It will be added as your activity.Using your ID,you can see your past activities."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView18"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"/>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

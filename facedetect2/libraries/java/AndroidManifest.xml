@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android=">
+    xmlns:android="http://schemas.android.com/apk/res/android" package="org.opencv"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.android.com/apk/res/android ">
+
+    <uses-sdk android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+</manifest>

@@ -1,0 +1,93 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/backg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|center">
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageSpecimenPhoto"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/button4"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BLUE TO RED"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/button4"
+
+        android:layout_marginTop="6dp"
+
+        android:onClick="bluetored"
+        android:background="@color/design_textinput_error_color_dark" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RED TO BLUE"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/button5"
+        android:layout_toEndOf="@+id/button"
+        android:layout_alignStart="@+id/button5"
+        android:layout_marginTop="6dp"
+        android:onClick="redtoblue"
+        android:background="@color/design_textinput_error_color_dark" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GREEN TO BLUE"
+        android:id="@+id/button3"
+        android:layout_marginTop="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="greentoblue"
+        android:background="@color/design_textinput_error_color_dark" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BLUE TO GREEN"
+        android:id="@+id/button4"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:onClick="bluetogreen"
+        android:background="@color/design_textinput_error_color_dark" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GREEN TO RED"
+        android:id="@+id/button5"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:onClick="greentored"
+        android:background="@color/design_textinput_error_color_dark"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RED TO GREEN"
+        android:id="@+id/button6"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/button5"
+        android:layout_alignStart="@+id/button3"
+        android:onClick="redtogreen"
+        android:background="@color/design_textinput_error_color_dark" />
+
+
+</RelativeLayout>

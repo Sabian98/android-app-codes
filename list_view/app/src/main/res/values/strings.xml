@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">list_view</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cloth_act">cloth_act</string>
+</resources>

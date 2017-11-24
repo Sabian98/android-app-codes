@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.taseef_pc.foo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hungry"
+        android:label="Food entrepreneur"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".Signup" />
+        <activity android:name=".donate" />
+        <activity android:name=".Inq_del_donate" />
+        <activity android:name=".Reclist" />
+        <activity android:name=".Inquire" >
+
+
+
+        </activity>
+        <activity android:name=".Inq_del_rcv" />
+        <activity android:name=".Donlist" />
+        <activity android:name=".History" />
+        <activity android:name=".SeeHistory" />
+        <activity android:name=".Delete_donate" />
+        <activity android:name=".Delete_inquiry" />
+
+        <activity
+            android:name=".Profile2"
+            android:label="@string/title_activity_profile2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".New" />
+        <activity android:name=".Credit" />
+        <activity android:name=".Splash_activity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
